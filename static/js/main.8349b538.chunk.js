@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-spreadsheet-client"]=this["webpackJsonpreact-spreadsheet-client"]||[]).push([[0],{109:function(e,t,r){"use strict";r.r(t);var n=r(0),a=r.n(n),c=r(45),s=r.n(c),o=r(48),i=r(9);var u=function(){for(var e=[],t=0;t<20;t++){for(var r=[],n=0;n<20;n++){r.push({value:""})}e.push(r)}return Object(i.jsx)(o.a,{data:e})};s.a.render(Object(i.jsx)(a.a.StrictMode,{children:Object(i.jsx)(u,{})}),document.getElementById("root"))},67:function(e,t){}},[[109,1,2]]]);
+//# sourceMappingURL=main.8349b538.chunk.js.map
