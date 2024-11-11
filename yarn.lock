@@ -2334,16 +2334,6 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
-"@reduxjs/toolkit@^1.6.1":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@reduxjs/toolkit/-/toolkit-1.7.2.tgz#b428aaef92582379464f9de698dbb71957eafb02"
-  integrity sha512-wwr3//Ar8ZhM9bS58O+HCIaMlR4Y6SNHfuszz9hKnQuFIKvwaL3Kmjo6fpDKUOjo4Lv54Yi299ed8rofCJ/Vjw==
-  dependencies:
-    immer "^9.0.7"
-    redux "^4.1.2"
-    redux-thunk "^2.4.1"
-    reselect "^4.1.5"
-
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -3397,16 +3387,7 @@ array.prototype.flat@^1.2.5:
     es-abstract "^1.20.4"
     es-shim-unscopables "^1.0.0"
 
-array.prototype.flatmap@^1.2.4:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/array.prototype.flatmap/-/array.prototype.flatmap-1.2.5.tgz#908dc82d8a406930fdf38598d51e7411d18d4446"
-  integrity sha512-08u6rVyi1Lj7oqWbS9nUxliETrtIROT4XGTA4D/LWGten6E3ocm7cy9SIrmNHOL5XVbVuckUp3X6Xyg8/zpvHA==
-  dependencies:
-    call-bind "^1.0.0"
-    define-properties "^1.1.3"
-    es-abstract "^1.19.0"
-
-array.prototype.flatmap@^1.3.1:
+array.prototype.flatmap@^1.2.4, array.prototype.flatmap@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/array.prototype.flatmap/-/array.prototype.flatmap-1.3.1.tgz#1aae7903c2100433cb8261cd4ed310aab5c4a183"
   integrity sha512-8UGn9O1FDVvMNB0UlLv4voxRMze7+FpHyF5mSMRjWHUMlpoDViniy05870VlxhfgTnLbpuwTzvD76MTtWxB/mQ==
@@ -8614,17 +8595,16 @@ react-scripts@5.0.1:
   optionalDependencies:
     fsevents "^2.3.2"
 
-react-spreadsheet@^0.5.4:
-  version "0.5.20"
-  resolved "https://registry.yarnpkg.com/react-spreadsheet/-/react-spreadsheet-0.5.20.tgz#aad4ef4b22b4e63d398621b6f2e95207f3048af3"
-  integrity sha512-W4258F4kxumFjw1SSi8rj3Cv0O/NGzbderWWFHch1OqzMB7FlIWeXgjNyA315JEz8Fk6Sm2R6/2s7ykKPr0G1g==
+react-spreadsheet@^0.5.14:
+  version "0.5.14"
+  resolved "https://registry.yarnpkg.com/react-spreadsheet/-/react-spreadsheet-0.5.14.tgz#324039649e8a79febf219f4bc6c5eb4ebddee5c0"
+  integrity sha512-ylTETGDrJtDebakM1aljKPf/J/20qW4YU5O6/m9JTAAQjXIJ1qLYczpEHDM+167PFicKl0MDpH8y+X49Zckx6A==
   dependencies:
-    "@reduxjs/toolkit" "^1.6.1"
     "@types/array.prototype.flatmap" "^1.2.2"
     array.prototype.flatmap "^1.2.4"
     classnames "^2.3.1"
     hot-formula-parser "^4.0.0"
-    use-context-selector "^1.3.7"
+    unistore "^3.5.2"
 
 react@^17.0.2:
   version "17.0.2"
@@ -8684,18 +8664,6 @@ redent@^3.0.0:
   dependencies:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
-
-redux-thunk@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.4.1.tgz#0dd8042cf47868f4b29699941de03c9301a75714"
-  integrity sha512-OOYGNY5Jy2TWvTL1KgAlVy6dcx3siPJ1wTq741EPyUKfn6W6nChdICjZwCd0p8AZBs5kWpZlbkXW2nE/zjUa+Q==
-
-redux@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.2.tgz#140f35426d99bb4729af760afcf79eaaac407104"
-  integrity sha512-SH8PglcebESbd/shgf6mii6EIoRM0zrQyjcuQ+ojmfxjTtE0z9Y8pa62iA/OJ58qjP6j27uyW4kUF4jl/jd6sw==
-  dependencies:
-    "@babel/runtime" "^7.9.2"
 
 regenerate-unicode-properties@^10.1.0:
   version "10.1.0"
@@ -8837,11 +8805,6 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
-
-reselect@^4.1.5:
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.1.5.tgz#852c361247198da6756d07d9296c2b51eddb79f6"
-  integrity sha512-uVdlz8J7OO+ASpBYoz1Zypgx0KasCY20H+N8JD13oUMtPvSHQuscrHop4KbXrbsBcdB9Ds7lVK7eRkBIfO43vQ==
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
@@ -9933,6 +9896,11 @@ unique-string@^2.0.0:
   dependencies:
     crypto-random-string "^2.0.0"
 
+unistore@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/unistore/-/unistore-3.5.2.tgz#ec3ae07bc497fb35ff8b99f85c878ec47c787cb4"
+  integrity sha512-2Aa4eX0Ua1umyiI3Eai6Li+wXYOHgaDBGOPB3Hvw7PAVuD30TAyh5kS4yNKb2fLDbQgizvPhKQRcYnOdfsm4VQ==
+
 universalify@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.2.0.tgz#6451760566fa857534745ab1dde952d1b1761be0"
@@ -9980,11 +9948,6 @@ url-parse@^1.5.3:
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
-
-use-context-selector@^1.3.7:
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/use-context-selector/-/use-context-selector-1.3.9.tgz#d1527393839f0d790ccdd52e28e8f353b8be6c2e"
-  integrity sha512-YgzRyeFjoJXwFn2qLVAuIbV6EQ8DOuzu3SS/eiCxyAyvBhcn02jYSz8c5v22QQU3LW6Ez/Iyo62kKvS7Kdqt3A==
 
 util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   version "1.0.2"
